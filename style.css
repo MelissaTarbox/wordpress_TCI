@@ -135,6 +135,11 @@ Page Styles
 	font-size: 17px;
 	font-size: 1.0625rem;
 }
+/* changes margins of page content */
+
+#page .page {
+	
+}
 
 /*------------------------------------------------------------------------------
  Footer Styles
