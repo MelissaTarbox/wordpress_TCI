@@ -11,3 +11,159 @@
  Tags:         Accessibility Ready, Custom Colors, Custom Header, Custom Logo, Custom Menu, Editor Style, Featured Images, Flexible Header, Footer Widgets, One Column, Post Formats, Right Sidebar, RTL Language Support, Sticky Post, Theme Options, Threaded Comments, Translation Ready, Two Columns
  Text Domain:  twenty-seventeen-child
 */
+
+/*------------------------------------------------------------------------------
+ General Styling
+------------------------------------------------------------------------------*/
+
+html {
+	font-family: 'Roboto Slab', serif;
+  color: #333333;
+	line-height: 1.15;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+h1 {
+  color: #00324d;
+}
+
+h2 h3 h4 {
+  color: #7e7d7e;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+	color: #333;
+	font-family: 'Roboto Slab', serif;
+	font-size: 100%;
+	line-height: 1.15;
+	margin: 0;
+}
+
+
+
+/*------------------------------------------------------------------------------
+ Typography
+------------------------------------------------------------------------------*/
+
+body,
+button,
+input,
+select,
+textarea {
+	color: #333;
+  font-family: 'Roboto Slab', serif;
+	font-size: 15px;
+	font-size: 0.9375rem;
+	font-weight: 400;
+	line-height: 1.66;
+}
+
+
+/*------------------------------------------------------------------------------
+Navigation Top
+------------------------------------------------------------------------------*/
+
+.navigation-top a {
+	color: #333333;
+  font-family: 'Roboto Slab', serif;
+}
+
+.navigation-top .current-menu-item > a,
+.navigation-top .current_page_item > a {
+	color: #00324d;
+}
+
+.main-navigation a:hover {
+	color: #00324d;
+}
+
+/* Hide the menu on small screens when JavaScript is available.
+ * It only works with JavaScript.
+ */
+
+.menu-toggle {
+	color: #333;
+  font-family: 'Roboto Slab', serif;
+}
+
+.menu-toggle a:hover {
+  color: #00324d;
+}
+
+.dropdown-toggle {
+	color: #333;
+  font-family: 'Roboto Slab', serif;
+}
+
+.dropdown-toggle a:hover{
+  color: #00324d;
+}
+
+/* Scroll down arrow */
+
+.site-header .menu-scroll-down {
+	display: none;
+}
+
+/* Display the menu toggle when JavaScript is available. */
+/* Dropdown Toggle */
+
+.dropdown-toggle {
+	color: #333;
+  font-family: 'Roboto Slab', serif;
+}
+
+/* Scroll down arrow: hides */
+
+.site-header .menu-scroll-down {
+	display: none;
+}
+
+/*------------------------------------------------------------------------------
+Page Styles
+------------------------------------------------------------------------------*/
+/* changes page paragraph fonts */
+
+#page p {
+	color: #333;
+	font-family: 'Roboto Slab', serif;
+	font-size: 17px;
+	font-size: 1.0625rem;
+}
+
+/*------------------------------------------------------------------------------
+ Footer Styles
+ -----------------------------------------------------------------------------*/
+
+/* Controls the Copy Right Paragraph */
+
+footer .site-footer, h6 {
+	font-size: 12px;
+	font-size: 0.75rem;
+  color: #7e7d7e;
+  display: inline;
+}
+
+/* Button Styles: Facebook */
+
+.social-navigation a {
+	background-color: #00324d;
+	-webkit-border-radius: 40px;
+	border-radius: 40px;
+	color: #fff;
+	display: inline-block;
+	height: 40px;
+	margin: 0 1em 0.5em 0;
+	text-align: center;
+	width: 40px;
+}
+
+.social-navigation a:hover,
+.social-navigation a:focus {
+	background-color: #00324d;
+}
