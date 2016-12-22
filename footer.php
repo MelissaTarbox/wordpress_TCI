@@ -19,10 +19,8 @@
 		<footer id="colophon" class="site-footer" role="contentinfo">
 			<div class="wrap">
 			  <h6>© Tarbox Construction, inc. 2017<h6>
-
 				<?php
 				get_template_part( 'template-parts/footer/footer', 'widgets' );
-
 				if ( has_nav_menu( 'social' ) ) : ?>
 					<nav class="social-navigation" role="navigation" aria-label="<?php _e( 'Footer Social Links Menu', 'twentyseventeen' ); ?>">
 						<?php
@@ -35,8 +33,8 @@
 							) );
 						?>
 					</nav><!-- .social-navigation -->
+						<?php echo do_shortcode("[huge_it_share]"); ?>
 				<?php endif;
-
 				//get_template_part( 'template-parts/footer/site', 'info' ); REMOVES POWERED BY WORDPRESS LINK
 				?>
 			</div><!-- .wrap -->
