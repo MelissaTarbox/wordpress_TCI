@@ -33,7 +33,7 @@
 							) );
 						?>
 					</nav><!-- .social-navigation -->
-						<?php echo do_shortcode("[huge_it_share]"); ?>
+						<?php echo do_shortcode("[huge_it_share]"); ?> <!-- social media share buttons -->
 				<?php endif;
 				//get_template_part( 'template-parts/footer/site', 'info' ); REMOVES POWERED BY WORDPRESS LINK
 				?>
