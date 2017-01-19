@@ -22,7 +22,7 @@ get_header(); ?>
 					<p class="page-info"><?php _e ('We couldn&rsquo;t build that page.', 'twentyseventeen'); ?></p>
 				</header><!-- .page-header -->
 				<div class="page-content">
-
+	    		<img src="http://localhost:8888/wordpress_TCI/wp-content/uploads/2017/01/plan.jpg">
 				</div><!-- .page-content -->
 			</section><!-- .error-404 -->
 		</main><!-- #main -->
