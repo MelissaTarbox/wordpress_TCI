@@ -25,6 +25,7 @@ html {
 }
 
 h1 {
+	font-family: 'Roboto Slab', serif;
   color: #00324d;
 }
 
@@ -139,6 +140,22 @@ Page Styles
 
 #page .page {
 
+}
+
+/*------------------------------------------------------------------------------
+404 Page
+------------------------------------------------------------------------------*/
+h1.page-title
+{
+font-family: 'Roboto Slab', serif;
+color: #00324d;
+font-size: 28px;
+}
+
+p.page-info {
+	font-family: 'Robot Slab', serif;
+	color: #00324d;
+	font-size: 17px;
 }
 
 /*------------------------------------------------------------------------------
